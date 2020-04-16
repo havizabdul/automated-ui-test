@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Logout",
+        "description": "",
+        "id": "logout;logout;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2101271898,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Logout",
+            "match": {
+              "location": "LoginSteps.logout()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48392175,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify NEW DELIVERY SYSTEM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NEW DELIVERY SYSTEM",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Logout"
+          },
+          {
+            "name": "@logout_normal_case"
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "/Users/dwiyunitasari/Katalon Studio/NDS-UI/include/features/Logout.feature",
+    "tags": [
+      {
+        "name": "@SC_Logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

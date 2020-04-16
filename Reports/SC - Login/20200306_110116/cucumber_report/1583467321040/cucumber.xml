@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.273937">
+<testcase classname="Search Customer with account number" name="Search Customer dengan Nomor Rekening" time="15.273937">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+And click menu non monetary.................................................passed
+And click menu saving.......................................................passed
+And click personal account opening menu.....................................passed
+When write 020601000017508 to nomor rekening field..........................passed
+And click search............................................................passed
+And scroll to button open...................................................passed
+And verify 020601000017508..................................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

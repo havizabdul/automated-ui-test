@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="49.398661">
+<testcase classname="Login" name="Login - User ID kurang dari 7 Karakter" time="6.413973">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid 020607....................................................passed
+And input password 00000000.................................................passed
+And Click button submit.....................................................passed
+Then verify must have a length equal to '7'.................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login - User ID lebih dari 7 Karakter" time="6.039321">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid 020607666.................................................passed
+And input password 00000000.................................................passed
+And Click button submit.....................................................passed
+Then verify must have a length equal to '7'.................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login - Password Salah" time="7.091702">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid 0206076...................................................passed
+And input password 1234567..................................................passed
+And Click button submit.....................................................passed
+Then verify Username dan Password tidak cocok...............................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login - User ID Kosong" time="5.791532">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid ..........................................................passed
+And input password 00000000.................................................passed
+And Click button submit.....................................................passed
+Then verify invalid field Userid............................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login - Password Kosong" time="5.717808">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid 0206076...................................................passed
+And input password .........................................................passed
+And Click button submit.....................................................passed
+Then verify invalid field Password..........................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login - User ID Karakter" time="5.812397">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid ABCDEFG...................................................passed
+And input password 00000000.................................................passed
+And Click button submit.....................................................passed
+Then verify must be a string................................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login - Password karakter " time="5.985454">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid 0206076...................................................passed
+And input password 123......................................................passed
+And Click button submit.....................................................passed
+Then verify SSO Failure.....................................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login - Level ID belum dimapping" time="6.546474">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+When input userid 0206051...................................................passed
+And input password 00000000.................................................passed
+And Click button submit.....................................................passed
+Then verify ID Level 0206051 not found......................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

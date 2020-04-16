@@ -1,0 +1,214 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Search Customer",
+        "description": "",
+        "id": "search-customer-with-name;search-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3285864383,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2079774070,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click menu non monetary",
+            "match": {
+              "location": "SearchCust.click_non_monetary_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1066203057,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click menu saving",
+            "match": {
+              "location": "SearchCust.click_saving_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067538104,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click personal account opening menu",
+            "match": {
+              "location": "SearchCust.click_personal_opening_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387682426,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "write DANUTA PUTRI DEM to name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DANUTA PUTRI DEM",
+                  "offset": 6
+                }
+              ],
+              "location": "SearchCust.write_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184856980,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "write 1984-06-20 to birthdate field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1984-06-20",
+                  "offset": 6
+                }
+              ],
+              "location": "SearchCust.write_birthdate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2094515679,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click search",
+            "match": {
+              "location": "SearchCust.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2038432708,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "scroll to button open",
+            "match": {
+              "location": "SearchCust.scroll_element_button_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3005078402,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3002058691,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3003914000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146847572,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify 1984-06-20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1984-06-20",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001146656,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_Seacrh_Cust"
+          },
+          {
+            "name": "@search_name_normal_case"
+          }
+        ]
+      }
+    ],
+    "name": "Search Customer with Name",
+    "description": "",
+    "id": "search-customer-with-name",
+    "keyword": "Feature",
+    "uri": "/Users/dwiyunitasari/Katalon Studio/NDS-UI/include/features/SearchCustwithName.feature",
+    "tags": [
+      {
+        "name": "@TC_Seacrh_Cust",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.154694">
+<testcase classname="Logout" name="Logout" time="2.154694">
+<system-out><![CDATA[Given Logout................................................................passed
+Then verify NEW DELIVERY SYSTEM.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

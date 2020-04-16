@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5306407503,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser loaded successfully",
+            "match": {
+              "location": "LoginSteps.browser_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 424038462,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid 0206076",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206076",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160674810,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2147326746,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59214803,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login Success",
+            "match": {
+              "location": "LoginSteps.verify_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3003755809,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_normal_case"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/dwiyunitasari/Katalon Studio/NDS-UI/include/features/TC-Login.feature",
+    "tags": [
+      {
+        "name": "@SC_Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

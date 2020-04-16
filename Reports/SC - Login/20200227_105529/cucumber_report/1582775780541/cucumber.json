@@ -1,0 +1,886 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 790920240,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170184482,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid 020607",
+            "match": {
+              "arguments": [
+                {
+                  "val": "020607",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208633717,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2163756861,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59299829,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify must have a length equal to \u00277\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "must have a length equal to \u00277\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3005252857,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 410587604,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 231198147,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid 020607666",
+            "match": {
+              "arguments": [
+                {
+                  "val": "020607666",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224070383,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2090024961,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70749108,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify must have a length equal to \u00277\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "must have a length equal to \u00277\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3005546572,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1479201329,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 229411354,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid 0206076",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206076",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175506174,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 1234567",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2123505407,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63098078,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify Username dan Password tidak cocok",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username dan Password tidak cocok",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3008710847,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 189719479,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152413691,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169414556,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2208651518,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55951419,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify invalid field Userid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid field Userid",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3002352980,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 200172700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276954487,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid 0206076",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206076",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82562103,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2092622365,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55476204,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify invalid field Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid field Password",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3005299682,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 241985568,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208266959,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid ABCDEFG",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABCDEFG",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204747275,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2090385692,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55263228,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify must be a string",
+            "match": {
+              "arguments": [
+                {
+                  "val": "must be a string",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3007347153,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 460581920,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 225272882,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid 0206076",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206076",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137938875,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084976035,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65320450,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify SSO Failure",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SSO Failure",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3005893963,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 896856405,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 247378431,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input userid 0206051",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206051",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.input_userid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238663860,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.input_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096572479,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button submit",
+            "match": {
+              "location": "LoginSteps.click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55822724,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify ID Level 0206051 not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ID Level 0206051 not found",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3006653342,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SC_Login"
+          },
+          {
+            "name": "@login_abnormal_case"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/dwiyunitasari/Katalon Studio/NDS-UI/include/features/TC-Login_variation.feature",
+    "tags": [
+      {
+        "name": "@SC_Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

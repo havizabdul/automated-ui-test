@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SC - Login,Chrome 80.0.3987.132,,2020-03-06 11:01:48,2020-03-06 11:03:13,1m - 25.299s,INCOMPLETE
+,,,,,,
+Test Cases/TC01 - Login,Chrome 80.0.3987.132,,2020-03-06 11:01:48,2020-03-06 11:02:00,12.155s,PASSED
+"runFeatureFile(""include/features/TC-Login.feature"")",Chrome 80.0.3987.132,,2020-03-06 11:01:49,2020-03-06 11:02:00,11.775s,PASSED
+,,,,,,
+Test Cases/TC03 - Search Customer,Chrome 80.0.3987.132,,2020-03-06 11:02:00,2020-03-06 11:03:13,1m - 12.845s,INCOMPLETE
+"runFeatureFile(""include/features/SearchCustwithAcc.feature"")",Chrome 80.0.3987.132,,2020-03-06 11:02:01,2020-03-06 11:03:13,1m - 12.662s,INCOMPLETE

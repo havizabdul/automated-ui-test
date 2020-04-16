@@ -1,0 +1,160 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Search Customer",
+        "description": "",
+        "id": "search-customer-with-id;search-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3271152148,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2085327266,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click menu non monetary",
+            "match": {
+              "location": "SearchCust.click_non_monetary_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1064872188,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click menu saving",
+            "match": {
+              "location": "SearchCust.click_saving_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1058734143,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click personal account opening menu",
+            "match": {
+              "location": "SearchCust.click_personal_opening_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310232080,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "write 1871016006840016 to id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1871016006840016",
+                  "offset": 6
+                }
+              ],
+              "location": "SearchCust.write_id(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2128260196,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click search",
+            "match": {
+              "location": "SearchCust.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042363454,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "scroll to button open",
+            "match": {
+              "location": "SearchCust.scroll_element_button_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116674050,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify 1871016006840016",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1871016006840016",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001936500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_Seacrh_Cust"
+          },
+          {
+            "name": "@search_id_normal_case"
+          }
+        ]
+      }
+    ],
+    "name": "Search Customer with ID",
+    "description": "",
+    "id": "search-customer-with-id",
+    "keyword": "Feature",
+    "uri": "/Users/dwiyunitasari/Katalon Studio/NDS-UI/include/features/SearchCustwithID.feature",
+    "tags": [
+      {
+        "name": "@TC_Seacrh_Cust",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.385543">
+<testcase classname="Search Customer with Name" name="Search Customer dengan Nama" time="24.385543">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+And click menu non monetary.................................................passed
+And click menu saving.......................................................passed
+And click personal account opening menu.....................................passed
+When write DANUTA PUTRI DEM to name field...................................passed
+And write 1984-06-20 to birthdate field.....................................passed
+And click search............................................................passed
+And scroll to button open...................................................passed
+And wait for minutes........................................................passed
+And wait for minutes........................................................passed
+And wait for minutes........................................................passed
+And verify 1984-06-20.......................................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

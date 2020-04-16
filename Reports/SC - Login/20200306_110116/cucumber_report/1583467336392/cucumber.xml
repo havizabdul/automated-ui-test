@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.024046">
+<testcase classname="Search Customer with CIF" name="Search Customer dengan CIF" time="15.024046">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+And click menu non monetary.................................................passed
+And click menu saving.......................................................passed
+And click personal account opening menu.....................................passed
+When write DP10157 to cif field.............................................passed
+And click search............................................................passed
+And scroll to button open...................................................passed
+And verify DP10157..........................................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

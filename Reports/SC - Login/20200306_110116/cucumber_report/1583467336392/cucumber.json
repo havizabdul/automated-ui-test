@@ -1,0 +1,160 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Search Customer",
+        "description": "",
+        "id": "search-customer-with-cif;search-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3250925204,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "refresh the browser",
+            "match": {
+              "location": "LoginSteps.refresh_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2084735201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click menu non monetary",
+            "match": {
+              "location": "SearchCust.click_non_monetary_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1076379137,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click menu saving",
+            "match": {
+              "location": "SearchCust.click_saving_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1063017161,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click personal account opening menu",
+            "match": {
+              "location": "SearchCust.click_personal_opening_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258996298,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "write DP10157 to cif field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DP10157",
+                  "offset": 6
+                }
+              ],
+              "location": "SearchCust.write_cif(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2102849164,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click search",
+            "match": {
+              "location": "SearchCust.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2045307464,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "scroll to button open",
+            "match": {
+              "location": "SearchCust.scroll_element_button_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123942985,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify DP10157",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DP10157",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginSteps.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3004819292,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "wait for minutes",
+            "match": {
+              "location": "LoginSteps.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_Seacrh_Cust"
+          },
+          {
+            "name": "@search_cif_normal_case"
+          }
+        ]
+      }
+    ],
+    "name": "Search Customer with CIF",
+    "description": "",
+    "id": "search-customer-with-cif",
+    "keyword": "Feature",
+    "uri": "/Users/dwiyunitasari/Katalon Studio/NDS-UI/include/features/SearchCustwithCIF.feature",
+    "tags": [
+      {
+        "name": "@TC_Seacrh_Cust",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

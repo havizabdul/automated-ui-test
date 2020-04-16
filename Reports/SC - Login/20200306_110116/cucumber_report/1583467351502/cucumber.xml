@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.092188">
+<testcase classname="Search Customer with ID" name="Search Customer dengan ID" time="15.092188">
+<system-out><![CDATA[Given refresh the browser...................................................passed
+And click menu non monetary.................................................passed
+And click menu saving.......................................................passed
+And click personal account opening menu.....................................passed
+When write 1871016006840016 to id field.....................................passed
+And click search............................................................passed
+And scroll to button open...................................................passed
+And verify 1871016006840016.................................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

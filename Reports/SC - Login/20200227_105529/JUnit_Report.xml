@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SC - Login" time="67" tests="1" failures="0" errors="0">
+   <testsuite name="SC - Login" tests="1" failures="0" errors="0" time="67" timestamp="2020-02-27 10:56:02" hostname="dwiyunitasari - 10.201.32.166" id="Test Suites/SC - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200227_105529"/>
+         <property name="logFiles" value="/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200227_105529/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dwiyunitasari - 10.201.32.166"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.122"/>
+         <property name="hostAddress" value="10.201.32.166"/>
+         <property name="sessionId" value="4b485afd70e52f2368ed6fe13979085a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC01 - Login" classname="Test Cases/TC01 - Login" status="PASSED">
+         <system-out><![CDATA[2020-02-27 10:56:02 - [TEST_CASE][PASSED] - Test Cases/TC01 - Login: Test Cases/TC01 - Login
+
+2020-02-27 10:56:02 - [TEST_STEP][PASSED] - runFeatureFile("include/features/TC-Login.feature"): Test Cases/TC01 - Login
+
+2020-02-27 10:56:03 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/TC-Login.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200227_105529/cucumber_report/1582775763011'...
+
+2020-02-27 10:56:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:03 - [TEST_STEP][PASSED] - browser loaded successfully: browser loaded successfully
+
+2020-02-27 10:56:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-27 10:56:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-27 10:56:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-27 10:56:12 - [MESSAGE][PASSED] - Navigate to 'http://172.18.136.38/#/Login' successfully
+
+2020-02-27 10:56:12 - [MESSAGE][PASSED] - browser loaded successfully
+
+2020-02-27 10:56:12 - [TEST_STEP][PASSED] - input userid 0206076: input userid 0206076
+
+2020-02-27 10:56:12 - [MESSAGE][PASSED] - Text '0206076' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:12 - [MESSAGE][PASSED] - input userid 0206076
+
+2020-02-27 10:56:12 - [TEST_STEP][PASSED] - input password 00000000: input password 00000000
+
+2020-02-27 10:56:13 - [MESSAGE][PASSED] - Text '00000000' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:13 - [MESSAGE][PASSED] - input password 00000000
+
+2020-02-27 10:56:13 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:56:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:15 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:56:15 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2020-02-27 10:56:15 - [MESSAGE][PASSED] - Text 'NEW DELIVERY SYSTEM' is present on page 
+
+2020-02-27 10:56:15 - [MESSAGE][PASSED] - Login Success
+
+2020-02-27 10:56:15 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:56:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:56:18 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:56:18 - [TEST_STEP][PASSED] - Logout: Logout
+
+2020-02-27 10:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_logout' is clicked on
+
+2020-02-27 10:56:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:20 - [MESSAGE][PASSED] - Logout
+
+2020-02-27 10:56:20 - [MESSAGE][PASSED] - Feature file: 'include/features/TC-Login.feature' was passed
+
+2020-02-27 10:56:20 - [TEST_STEP][PASSED] - runFeatureFile("include/features/TC-Login_variation.feature"): Feature file: 'include/features/TC-Login_variation.feature' was passed
+
+2020-02-27 10:56:20 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/TC-Login_variation.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200227_105529/cucumber_report/1582775780541'...
+
+2020-02-27 10:56:20 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:20 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:56:21 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:56:21 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:56:21 - [TEST_STEP][PASSED] - input userid 020607: input userid 020607
+
+2020-02-27 10:56:21 - [MESSAGE][PASSED] - Text '020607' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:21 - [MESSAGE][PASSED] - input userid 020607
+
+2020-02-27 10:56:21 - [TEST_STEP][PASSED] - input password 00000000: input password 00000000
+
+2020-02-27 10:56:21 - [MESSAGE][PASSED] - Text '00000000' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:21 - [MESSAGE][PASSED] - input password 00000000
+
+2020-02-27 10:56:21 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:56:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:23 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:56:23 - [TEST_STEP][PASSED] - verify must have a length equal to '7': verify must have a length equal to '7'
+
+2020-02-27 10:56:24 - [MESSAGE][PASSED] - Text 'must have a length equal to '7'' is present on page 
+
+2020-02-27 10:56:24 - [MESSAGE][PASSED] - verify must have a length equal to '7'
+
+2020-02-27 10:56:24 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:56:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:27 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:56:27 - [TEST_STEP][PASSED] - input userid 020607666: input userid 020607666
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - Text '020607666' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - input userid 020607666
+
+2020-02-27 10:56:27 - [TEST_STEP][PASSED] - input password 00000000: input password 00000000
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - Text '00000000' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - input password 00000000
+
+2020-02-27 10:56:27 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:56:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:29 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:56:29 - [TEST_STEP][PASSED] - verify must have a length equal to '7': verify must have a length equal to '7'
+
+2020-02-27 10:56:30 - [MESSAGE][PASSED] - Text 'must have a length equal to '7'' is present on page 
+
+2020-02-27 10:56:30 - [MESSAGE][PASSED] - verify must have a length equal to '7'
+
+2020-02-27 10:56:30 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:56:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:56:33 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:56:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:33 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:56:34 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:56:34 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:56:34 - [TEST_STEP][PASSED] - input userid 0206076: input userid 0206076
+
+2020-02-27 10:56:34 - [MESSAGE][PASSED] - Text '0206076' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:34 - [MESSAGE][PASSED] - input userid 0206076
+
+2020-02-27 10:56:34 - [TEST_STEP][PASSED] - input password 1234567: input password 1234567
+
+2020-02-27 10:56:34 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:34 - [MESSAGE][PASSED] - input password 1234567
+
+2020-02-27 10:56:34 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:56:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:37 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:56:37 - [TEST_STEP][PASSED] - verify Username dan Password tidak cocok: verify Username dan Password tidak cocok
+
+2020-02-27 10:56:37 - [MESSAGE][PASSED] - Text 'Username dan Password tidak cocok' is present on page 
+
+2020-02-27 10:56:37 - [MESSAGE][PASSED] - verify Username dan Password tidak cocok
+
+2020-02-27 10:56:37 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:56:40 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:40 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:56:40 - [TEST_STEP][PASSED] - input userid : input userid 
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - input userid 
+
+2020-02-27 10:56:40 - [TEST_STEP][PASSED] - input password 00000000: input password 00000000
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - Text '00000000' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - input password 00000000
+
+2020-02-27 10:56:40 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:56:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:42 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:56:42 - [TEST_STEP][PASSED] - verify invalid field Userid: verify invalid field Userid
+
+2020-02-27 10:56:42 - [MESSAGE][PASSED] - Text 'invalid field Userid' is present on page 
+
+2020-02-27 10:56:42 - [MESSAGE][PASSED] - verify invalid field Userid
+
+2020-02-27 10:56:42 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:56:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:56:45 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:56:45 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:45 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:56:46 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:56:46 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:56:46 - [TEST_STEP][PASSED] - input userid 0206076: input userid 0206076
+
+2020-02-27 10:56:46 - [MESSAGE][PASSED] - Text '0206076' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:46 - [MESSAGE][PASSED] - input userid 0206076
+
+2020-02-27 10:56:46 - [TEST_STEP][PASSED] - input password : input password 
+
+2020-02-27 10:56:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:46 - [MESSAGE][PASSED] - input password 
+
+2020-02-27 10:56:46 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:56:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:48 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:56:48 - [TEST_STEP][PASSED] - verify invalid field Password: verify invalid field Password
+
+2020-02-27 10:56:48 - [MESSAGE][PASSED] - Text 'invalid field Password' is present on page 
+
+2020-02-27 10:56:48 - [MESSAGE][PASSED] - verify invalid field Password
+
+2020-02-27 10:56:48 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:56:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:56:51 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:56:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:51 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:56:51 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:56:51 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:56:51 - [TEST_STEP][PASSED] - input userid ABCDEFG: input userid ABCDEFG
+
+2020-02-27 10:56:52 - [MESSAGE][PASSED] - Text 'ABCDEFG' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:52 - [MESSAGE][PASSED] - input userid ABCDEFG
+
+2020-02-27 10:56:52 - [TEST_STEP][PASSED] - input password 00000000: input password 00000000
+
+2020-02-27 10:56:52 - [MESSAGE][PASSED] - Text '00000000' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:52 - [MESSAGE][PASSED] - input password 00000000
+
+2020-02-27 10:56:52 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:56:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:56:54 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:56:54 - [TEST_STEP][PASSED] - verify must be a string: verify must be a string
+
+2020-02-27 10:56:54 - [MESSAGE][PASSED] - Text 'must be a string' is present on page 
+
+2020-02-27 10:56:54 - [MESSAGE][PASSED] - verify must be a string
+
+2020-02-27 10:56:54 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:56:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:56:57 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:56:57 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:56:57 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:56:57 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:56:57 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:56:57 - [TEST_STEP][PASSED] - input userid 0206076: input userid 0206076
+
+2020-02-27 10:56:58 - [MESSAGE][PASSED] - Text '0206076' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:56:58 - [MESSAGE][PASSED] - input userid 0206076
+
+2020-02-27 10:56:58 - [TEST_STEP][PASSED] - input password 123: input password 123
+
+2020-02-27 10:56:58 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:56:58 - [MESSAGE][PASSED] - input password 123
+
+2020-02-27 10:56:58 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:57:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:57:00 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:57:00 - [TEST_STEP][PASSED] - verify SSO Failure: verify SSO Failure
+
+2020-02-27 10:57:00 - [MESSAGE][PASSED] - Text 'SSO Failure' is present on page 
+
+2020-02-27 10:57:00 - [MESSAGE][PASSED] - verify SSO Failure
+
+2020-02-27 10:57:00 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:57:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:57:03 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:57:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-02-27 10:57:03 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-02-27 10:57:04 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-27 10:57:04 - [MESSAGE][PASSED] - refresh the browser
+
+2020-02-27 10:57:04 - [TEST_STEP][PASSED] - input userid 0206051: input userid 0206051
+
+2020-02-27 10:57:04 - [MESSAGE][PASSED] - Text '0206051' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-02-27 10:57:04 - [MESSAGE][PASSED] - input userid 0206051
+
+2020-02-27 10:57:04 - [TEST_STEP][PASSED] - input password 00000000: input password 00000000
+
+2020-02-27 10:57:04 - [MESSAGE][PASSED] - Text '00000000' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-02-27 10:57:04 - [MESSAGE][PASSED] - input password 00000000
+
+2020-02-27 10:57:04 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-02-27 10:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-02-27 10:57:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-27 10:57:06 - [MESSAGE][PASSED] - Click button submit
+
+2020-02-27 10:57:06 - [TEST_STEP][PASSED] - verify ID Level 0206051 not found: verify ID Level 0206051 not found
+
+2020-02-27 10:57:07 - [MESSAGE][PASSED] - Text 'ID Level 0206051 not found' is present on page 
+
+2020-02-27 10:57:07 - [MESSAGE][PASSED] - verify ID Level 0206051 not found
+
+2020-02-27 10:57:07 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-02-27 10:57:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-27 10:57:10 - [MESSAGE][PASSED] - wait for minutes
+
+2020-02-27 10:57:10 - [MESSAGE][PASSED] - Feature file: 'include/features/TC-Login_variation.feature' was passed
+
+2020-02-27 10:57:10 - [MESSAGE][PASSED] - Test Cases/TC01 - Login]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-27 10:56:02 - [TEST_SUITE][INCOMPLETE] - SC - Login: null]]></system-out>
+      <system-err><![CDATA[2020-02-27 10:56:02 - [TEST_SUITE][INCOMPLETE] - SC - Login: null]]></system-err>
+   </testsuite>
+</testsuites>

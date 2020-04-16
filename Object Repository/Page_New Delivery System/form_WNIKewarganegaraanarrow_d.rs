@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_WNIKewarganegaraanarrow_d</name>
+   <tag></tag>
+   <elementGuidId>961fa2c7-1f6d-4dec-a757-101ff6639a6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q-app']/div/div[2]/main/div/div/div[2]/div/div/div/div/form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-form</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>WNIKewarganegaraanarrow_drop_downINDONESIANegaraarrow_drop_downKTPJenis Identitas Utamaarrow_drop_downNo Identitas UtamaTanggal ID DiterbitkaneventTanggal Kadaluarsa IDeventJenis Identitas Pelengkaparrow_drop_downNo Identitas PelengkapNama sesuai IDAlamat Sesuai IDKode PosProvinsiKabupaten / KotaKecamatanKelurahanRTRWTempat LahirTanggal LahireventJenis Kelaminarrow_drop_downGolongan Nasabaharrow_drop_downPendidikan Terakhirarrow_drop_downAgamaarrow_drop_downStatus Pernikahanarrow_drop_downNama Gadis Ibu KandungMemiliki NPWParrow_drop_downNPWPInformasi Kontak TeleponInformasi Kontak HandphoneInformasi Kontak EmailJenis Media Sosialarrow_drop_downNama Akun/EmailJenis Media Sosial 2arrow_drop_downNama Akun/Email 2Alamat DomisiliKode PosProvinsiKabupaten / KotaKecamatanKelurahanRTRWHobiarrow_drop_down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;q-layout q-layout--standard&quot;]/div[@class=&quot;q-page-container&quot;]/main[@class=&quot;q-page&quot;]/div[@class=&quot;q-pa-md bkg-blue2&quot;]/div[@class=&quot;q-stepper q-stepper--horizontal&quot;]/div[@class=&quot;q-stepper__content q-panel-parent&quot;]/div[@class=&quot;q-panel scroll&quot;]/div[@class=&quot;q-stepper__step&quot;]/div[@class=&quot;q-stepper__step-content&quot;]/div[@class=&quot;q-stepper__step-inner&quot;]/form[@class=&quot;q-form&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='q-app']/div/div[2]/main/div/div/div[2]/div/div/div/div/form</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Pekerjaan'])[1]/following::form[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Pribadi'])[1]/following::form[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//form</value>
+   </webElementXpaths>
+</WebElementEntity>

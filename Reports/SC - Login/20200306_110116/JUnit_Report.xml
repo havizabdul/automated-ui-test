@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SC - Login" time="85" tests="1" failures="0" errors="0">
+   <testsuite name="SC - Login" tests="1" failures="0" errors="0" time="85" timestamp="2020-03-06 11:01:48" hostname="dwiyunitasari - 10.201.32.163" id="Test Suites/SC - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116"/>
+         <property name="logFiles" value="/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dwiyunitasari - 10.201.32.163"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.132"/>
+         <property name="hostAddress" value="10.201.32.163"/>
+         <property name="sessionId" value="d0f09c043ede44056021eefa49773487"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC01 - Login" classname="Test Cases/TC01 - Login" status="PASSED">
+         <system-out><![CDATA[2020-03-06 11:01:48 - [TEST_CASE][PASSED] - Test Cases/TC01 - Login: Test Cases/TC01 - Login
+
+2020-03-06 11:01:49 - [TEST_STEP][PASSED] - runFeatureFile("include/features/TC-Login.feature"): Feature file: 'include/features/TC-Login.feature' was passed
+
+2020-03-06 11:01:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/TC-Login.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116/cucumber_report/1583467309099'...
+
+2020-03-06 11:01:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2020-03-06 11:01:49 - [TEST_STEP][PASSED] - browser loaded successfully: browser loaded successfully
+
+2020-03-06 11:01:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-06 11:01:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-06 11:01:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-06 11:01:54 - [MESSAGE][PASSED] - Navigate to 'http://172.18.136.38/#/Login' successfully
+
+2020-03-06 11:01:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-06 11:01:54 - [MESSAGE][PASSED] - browser loaded successfully
+
+2020-03-06 11:01:54 - [TEST_STEP][PASSED] - input userid 0206076: input userid 0206076
+
+2020-03-06 11:01:55 - [MESSAGE][PASSED] - Text '0206076' is set on object 'Object Repository/Page_Login/input_username'
+
+2020-03-06 11:01:55 - [MESSAGE][PASSED] - input userid 0206076
+
+2020-03-06 11:01:55 - [TEST_STEP][PASSED] - input password 00000000: input password 00000000
+
+2020-03-06 11:01:55 - [MESSAGE][PASSED] - Text '00000000' is set on object 'Object Repository/Page_Login/input_Password'
+
+2020-03-06 11:01:55 - [MESSAGE][PASSED] - input password 00000000
+
+2020-03-06 11:01:55 - [TEST_STEP][PASSED] - Click button submit: Click button submit
+
+2020-03-06 11:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2020-03-06 11:01:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:01:57 - [MESSAGE][PASSED] - Click button submit
+
+2020-03-06 11:01:57 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2020-03-06 11:01:57 - [MESSAGE][PASSED] - Text 'NEW DELIVERY SYSTEM' is present on page 
+
+2020-03-06 11:01:57 - [MESSAGE][PASSED] - Login Success
+
+2020-03-06 11:01:57 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:02:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:00 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:02:00 - [MESSAGE][PASSED] - Feature file: 'include/features/TC-Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03 - Search Customer" classname="Test Cases/TC03 - Search Customer" status="INCOMPLETE">
+         <system-out><![CDATA[2020-03-06 11:02:00 - [TEST_CASE][INCOMPLETE] - Test Cases/TC03 - Search Customer: null
+
+2020-03-06 11:02:01 - [TEST_STEP][INCOMPLETE] - runFeatureFile("include/features/SearchCustwithAcc.feature"): null
+
+2020-03-06 11:02:01 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/SearchCustwithAcc.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116/cucumber_report/1583467321040'...
+
+2020-03-06 11:02:01 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search Customer: SCENARIO Search Customer
+
+2020-03-06 11:02:01 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-03-06 11:02:01 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-06 11:02:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:04 - [MESSAGE][PASSED] - refresh the browser
+
+2020-03-06 11:02:04 - [TEST_STEP][PASSED] - click menu non monetary: click menu non monetary
+
+2020-03-06 11:02:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2020-03-06 11:02:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Non Monetary' is clicked on
+
+2020-03-06 11:02:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:06 - [MESSAGE][PASSED] - click menu non monetary
+
+2020-03-06 11:02:06 - [TEST_STEP][PASSED] - click menu saving: click menu saving
+
+2020-03-06 11:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Saving' is clicked on
+
+2020-03-06 11:02:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:07 - [MESSAGE][PASSED] - click menu saving
+
+2020-03-06 11:02:07 - [TEST_STEP][PASSED] - click personal account opening menu: click personal account opening menu
+
+2020-03-06 11:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Personal Account Opening' is clicked on
+
+2020-03-06 11:02:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:08 - [MESSAGE][PASSED] - click personal account opening menu
+
+2020-03-06 11:02:08 - [TEST_STEP][PASSED] - write 020601000017508 to nomor rekening field: write 020601000017508 to nomor rekening field
+
+2020-03-06 11:02:09 - [MESSAGE][PASSED] - Text '020601000017508' is set on object 'Object Repository/Page_New Delivery System/input_norekening'
+
+2020-03-06 11:02:09 - [MESSAGE][PASSED] - write 020601000017508 to nomor rekening field
+
+2020-03-06 11:02:09 - [TEST_STEP][PASSED] - click search: click search
+
+2020-03-06 11:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Delivery System/button_Search' is clicked on
+
+2020-03-06 11:02:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:11 - [MESSAGE][PASSED] - click search
+
+2020-03-06 11:02:11 - [TEST_STEP][PASSED] - scroll to button open: scroll to button open
+
+2020-03-06 11:02:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_New Delivery System/button_Open New' successfully
+
+2020-03-06 11:02:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:13 - [MESSAGE][PASSED] - scroll to button open
+
+2020-03-06 11:02:13 - [TEST_STEP][PASSED] - verify 020601000017508: verify 020601000017508
+
+2020-03-06 11:02:13 - [MESSAGE][PASSED] - Text '020601000017508' is present on page 
+
+2020-03-06 11:02:13 - [MESSAGE][PASSED] - verify 020601000017508
+
+2020-03-06 11:02:13 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:02:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:16 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:02:16 - [MESSAGE][PASSED] - Feature file: 'include/features/SearchCustwithAcc.feature' was passed
+
+2020-03-06 11:02:16 - [TEST_STEP][PASSED] - runFeatureFile("include/features/SearchCustwithCIF.feature"): Test Cases/TC - Logout
+
+2020-03-06 11:02:16 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/SearchCustwithCIF.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116/cucumber_report/1583467336392'...
+
+2020-03-06 11:02:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search Customer: SCENARIO Search Customer
+
+2020-03-06 11:02:16 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-03-06 11:02:16 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-06 11:02:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:19 - [MESSAGE][PASSED] - refresh the browser
+
+2020-03-06 11:02:19 - [TEST_STEP][PASSED] - click menu non monetary: click menu non monetary
+
+2020-03-06 11:02:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2020-03-06 11:02:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Non Monetary' is clicked on
+
+2020-03-06 11:02:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:21 - [MESSAGE][PASSED] - click menu non monetary
+
+2020-03-06 11:02:21 - [TEST_STEP][PASSED] - click menu saving: click menu saving
+
+2020-03-06 11:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Saving' is clicked on
+
+2020-03-06 11:02:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:22 - [MESSAGE][PASSED] - click menu saving
+
+2020-03-06 11:02:22 - [TEST_STEP][PASSED] - click personal account opening menu: click personal account opening menu
+
+2020-03-06 11:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Personal Account Opening' is clicked on
+
+2020-03-06 11:02:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:23 - [MESSAGE][PASSED] - click personal account opening menu
+
+2020-03-06 11:02:23 - [TEST_STEP][PASSED] - write DP10157 to cif field: write DP10157 to cif field
+
+2020-03-06 11:02:24 - [MESSAGE][PASSED] - Text 'DP10157' is set on object 'Object Repository/Page_New Delivery System/input_CIF'
+
+2020-03-06 11:02:24 - [MESSAGE][PASSED] - write DP10157 to cif field
+
+2020-03-06 11:02:24 - [TEST_STEP][PASSED] - click search: click search
+
+2020-03-06 11:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Delivery System/button_Search' is clicked on
+
+2020-03-06 11:02:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:26 - [MESSAGE][PASSED] - click search
+
+2020-03-06 11:02:26 - [TEST_STEP][PASSED] - scroll to button open: scroll to button open
+
+2020-03-06 11:02:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_New Delivery System/button_Open New' successfully
+
+2020-03-06 11:02:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:28 - [MESSAGE][PASSED] - scroll to button open
+
+2020-03-06 11:02:28 - [TEST_STEP][PASSED] - verify DP10157: verify DP10157
+
+2020-03-06 11:02:28 - [MESSAGE][PASSED] - Text 'DP10157' is present on page 
+
+2020-03-06 11:02:28 - [MESSAGE][PASSED] - verify DP10157
+
+2020-03-06 11:02:28 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:02:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:31 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:02:31 - [MESSAGE][PASSED] - Feature file: 'include/features/SearchCustwithCIF.feature' was passed
+
+2020-03-06 11:02:31 - [TEST_STEP][PASSED] - runFeatureFile("include/features/SearchCustwithID.feature"): Test Cases/TC03 - Search Customer
+
+2020-03-06 11:02:31 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/SearchCustwithID.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116/cucumber_report/1583467351502'...
+
+2020-03-06 11:02:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search Customer: SCENARIO Search Customer
+
+2020-03-06 11:02:31 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-03-06 11:02:31 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-06 11:02:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:34 - [MESSAGE][PASSED] - refresh the browser
+
+2020-03-06 11:02:34 - [TEST_STEP][PASSED] - click menu non monetary: click menu non monetary
+
+2020-03-06 11:02:34 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2020-03-06 11:02:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Non Monetary' is clicked on
+
+2020-03-06 11:02:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:36 - [MESSAGE][PASSED] - click menu non monetary
+
+2020-03-06 11:02:36 - [TEST_STEP][PASSED] - click menu saving: click menu saving
+
+2020-03-06 11:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Saving' is clicked on
+
+2020-03-06 11:02:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:37 - [MESSAGE][PASSED] - click menu saving
+
+2020-03-06 11:02:37 - [TEST_STEP][PASSED] - click personal account opening menu: click personal account opening menu
+
+2020-03-06 11:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Personal Account Opening' is clicked on
+
+2020-03-06 11:02:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:39 - [MESSAGE][PASSED] - click personal account opening menu
+
+2020-03-06 11:02:39 - [TEST_STEP][PASSED] - write 1871016006840016 to id field: write 1871016006840016 to id field
+
+2020-03-06 11:02:39 - [MESSAGE][PASSED] - Text '1871016006840016' is set on object 'Object Repository/Page_New Delivery System/input_IdKTP'
+
+2020-03-06 11:02:39 - [MESSAGE][PASSED] - write 1871016006840016 to id field
+
+2020-03-06 11:02:39 - [TEST_STEP][PASSED] - click search: click search
+
+2020-03-06 11:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Delivery System/button_Search' is clicked on
+
+2020-03-06 11:02:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:41 - [MESSAGE][PASSED] - click search
+
+2020-03-06 11:02:41 - [TEST_STEP][PASSED] - scroll to button open: scroll to button open
+
+2020-03-06 11:02:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_New Delivery System/button_Open New' successfully
+
+2020-03-06 11:02:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:43 - [MESSAGE][PASSED] - scroll to button open
+
+2020-03-06 11:02:43 - [TEST_STEP][PASSED] - verify 1871016006840016: verify 1871016006840016
+
+2020-03-06 11:02:43 - [MESSAGE][PASSED] - Text '1871016006840016' is present on page 
+
+2020-03-06 11:02:43 - [MESSAGE][PASSED] - verify 1871016006840016
+
+2020-03-06 11:02:43 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:02:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:46 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:02:46 - [MESSAGE][PASSED] - Feature file: 'include/features/SearchCustwithID.feature' was passed
+
+2020-03-06 11:02:46 - [TEST_STEP][PASSED] - runFeatureFile("include/features/SearchCustwithName.feature"): Feature file: 'include/features/SearchCustwithName.feature' was passed
+
+2020-03-06 11:02:46 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/SearchCustwithName.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116/cucumber_report/1583467366664'...
+
+2020-03-06 11:02:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search Customer: SCENARIO Search Customer
+
+2020-03-06 11:02:46 - [TEST_STEP][PASSED] - refresh the browser: refresh the browser
+
+2020-03-06 11:02:47 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-06 11:02:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:02:50 - [MESSAGE][PASSED] - refresh the browser
+
+2020-03-06 11:02:50 - [TEST_STEP][PASSED] - click menu non monetary: click menu non monetary
+
+2020-03-06 11:02:50 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2020-03-06 11:02:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Non Monetary' is clicked on
+
+2020-03-06 11:02:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:52 - [MESSAGE][PASSED] - click menu non monetary
+
+2020-03-06 11:02:52 - [TEST_STEP][PASSED] - click menu saving: click menu saving
+
+2020-03-06 11:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Saving' is clicked on
+
+2020-03-06 11:02:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:53 - [MESSAGE][PASSED] - click menu saving
+
+2020-03-06 11:02:53 - [TEST_STEP][PASSED] - click personal account opening menu: click personal account opening menu
+
+2020-03-06 11:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Non Monetary/Menu_Personal Account Opening' is clicked on
+
+2020-03-06 11:02:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-06 11:02:54 - [MESSAGE][PASSED] - click personal account opening menu
+
+2020-03-06 11:02:54 - [TEST_STEP][PASSED] - write DANUTA PUTRI DEM to name field: write DANUTA PUTRI DEM to name field
+
+2020-03-06 11:02:54 - [MESSAGE][PASSED] - Text 'DANUTA PUTRI DEM' is set on object 'Object Repository/Page_New Delivery System/input_name'
+
+2020-03-06 11:02:54 - [MESSAGE][PASSED] - write DANUTA PUTRI DEM to name field
+
+2020-03-06 11:02:54 - [TEST_STEP][PASSED] - write 1984-06-20 to birthdate field: write 1984-06-20 to birthdate field
+
+2020-03-06 11:02:54 - [MESSAGE][PASSED] - Text '1984-06-20' is set on object 'Object Repository/Page_New Delivery System/input_birthdate'
+
+2020-03-06 11:02:54 - [MESSAGE][PASSED] - write 1984-06-20 to birthdate field
+
+2020-03-06 11:02:54 - [TEST_STEP][PASSED] - click search: click search
+
+2020-03-06 11:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Delivery System/button_Search' is clicked on
+
+2020-03-06 11:02:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:56 - [MESSAGE][PASSED] - click search
+
+2020-03-06 11:02:56 - [TEST_STEP][PASSED] - scroll to button open: scroll to button open
+
+2020-03-06 11:02:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_New Delivery System/button_Open New' successfully
+
+2020-03-06 11:02:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:02:58 - [MESSAGE][PASSED] - scroll to button open
+
+2020-03-06 11:02:58 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:03:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:03:01 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:03:01 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:03:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:03:04 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:03:04 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:03:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:03:07 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:03:07 - [TEST_STEP][PASSED] - verify 1984-06-20: verify 1984-06-20
+
+2020-03-06 11:03:08 - [MESSAGE][PASSED] - Text '1984-06-20' is present on page 
+
+2020-03-06 11:03:08 - [MESSAGE][PASSED] - verify 1984-06-20
+
+2020-03-06 11:03:08 - [TEST_STEP][PASSED] - wait for minutes: wait for minutes
+
+2020-03-06 11:03:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-06 11:03:11 - [MESSAGE][PASSED] - wait for minutes
+
+2020-03-06 11:03:11 - [MESSAGE][PASSED] - Feature file: 'include/features/SearchCustwithName.feature' was passed
+
+2020-03-06 11:03:11 - [MESSAGE][PASSED] - Test Cases/TC03 - Search Customer
+
+2020-03-06 11:03:11 - [TEST_CASE][PASSED] - Test Cases/TC - Logout: Test Cases/TC - Logout
+
+2020-03-06 11:03:11 - [TEST_STEP][PASSED] - runFeatureFile("include/features/Logout.feature"): Feature file: 'include/features/Logout.feature' was passed
+
+2020-03-06 11:03:11 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'include/features/Logout.feature' and extract report to folder: '/Users/dwiyunitasari/Katalon Studio/NDS-UI/Reports/SC - Login/20200306_110116/cucumber_report/1583467391275'...
+
+2020-03-06 11:03:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Logout: SCENARIO Logout
+
+2020-03-06 11:03:11 - [TEST_STEP][PASSED] - Logout: Logout
+
+2020-03-06 11:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_logout' is clicked on
+
+2020-03-06 11:03:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-06 11:03:13 - [MESSAGE][PASSED] - Logout
+
+2020-03-06 11:03:13 - [TEST_STEP][PASSED] - verify NEW DELIVERY SYSTEM: verify NEW DELIVERY SYSTEM
+
+2020-03-06 11:03:13 - [MESSAGE][PASSED] - Text 'NEW DELIVERY SYSTEM' is present on page 
+
+2020-03-06 11:03:13 - [MESSAGE][PASSED] - verify NEW DELIVERY SYSTEM
+
+2020-03-06 11:03:13 - [MESSAGE][PASSED] - Feature file: 'include/features/Logout.feature' was passed]]></system-out>
+         <system-err><![CDATA[2020-03-06 11:02:00 - [TEST_CASE][INCOMPLETE] - Test Cases/TC03 - Search Customer: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-06 11:01:48 - [TEST_SUITE][INCOMPLETE] - SC - Login: null]]></system-out>
+      <system-err><![CDATA[2020-03-06 11:01:48 - [TEST_SUITE][INCOMPLETE] - SC - Login: null]]></system-err>
+   </testsuite>
+</testsuites>

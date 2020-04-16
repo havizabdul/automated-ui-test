@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SC - Login,Chrome 80.0.3987.122,,2020-02-27 10:56:02,2020-02-27 10:57:10,1m - 7.974s,INCOMPLETE
+,,,,,,
+Test Cases/TC01 - Login,Chrome 80.0.3987.122,,2020-02-27 10:56:02,2020-02-27 10:57:10,1m - 7.666s,PASSED
+"runFeatureFile(""include/features/TC-Login.feature"")",Chrome 80.0.3987.122,,2020-02-27 10:56:02,2020-02-27 10:57:10,1m - 7.048s,PASSED
