@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.952224">
+<testcase classname="Data Keuangan" name="Data Keuangan" time="38.952224">
+<system-out><![CDATA[Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input account 020601000002561......................................passed
+And user klik button search.................................................passed
+And user scrool continue....................................................passed
+And user klik checkbox......................................................passed
+And wait for minutes........................................................passed
+And user klik continue......................................................passed
+And verify Data Debitur.....................................................passed
+And user scrool continue....................................................passed
+And user klik continue......................................................passed
+And verify Alamat Sesuai ID.................................................passed
+And verify Alamat Domisili..................................................passed
+And verify Data Lainnya.....................................................passed
+And user scrool continue....................................................passed
+And user klik continue......................................................passed
+And verify Data Pekerjaan...................................................passed
+And verify Keluarga PEP.....................................................passed
+And user scrool continue....................................................passed
+And user klik continue......................................................passed
+And verify Data Kantor......................................................passed
+And user scrool continue....................................................passed
+And user klik continue......................................................passed
+And verify Data Keuangan....................................................passed
+And user scrool finish......................................................passed
+And user klik finish........................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

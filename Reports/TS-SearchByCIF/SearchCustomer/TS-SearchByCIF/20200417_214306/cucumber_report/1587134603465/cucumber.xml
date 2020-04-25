@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.020386">
+<testcase classname="Search Customer by CIF" name="SearchByCIF" time="11.020386">
+<system-out><![CDATA[Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input cifnum RP39804...............................................passed
+And user klik button search.................................................passed
+And wait for minutes........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

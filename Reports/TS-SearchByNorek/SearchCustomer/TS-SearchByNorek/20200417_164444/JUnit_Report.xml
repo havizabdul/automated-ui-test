@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-SearchByNorek" time="49.313" tests="1" failures="0" errors="0">
+   <testsuite name="TS-SearchByNorek" tests="1" failures="0" errors="0" time="49.313" timestamp="2020-04-17 16:44:47" hostname="Citra Sandrauli - DESKTOP-IUT9I9T" id="Test Suites/SearchCustomer/TS-SearchByNorek">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\NDS\\Reports\\20200417_164444\\SearchCustomer\\TS-SearchByNorek\\20200417_164444"/>
+         <property name="logFiles" value="F:\\NDS\\Reports\\20200417_164444\\SearchCustomer\\TS-SearchByNorek\\20200417_164444\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Citra Sandrauli - DESKTOP-IUT9I9T"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.113"/>
+         <property name="hostAddress" value="192.168.139.90"/>
+         <property name="sessionId" value="8f6803c3cf0a16cf1bbc8c94c4dc00f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SearchCustomerBDD/SearchByNorek/TC05-SearchByNoRek" time="48.099" classname="Test Cases/SearchCustomerBDD/SearchByNorek/TC05-SearchByNoRek" status="PASSED">
+         <system-out><![CDATA[2020-04-17 16:44:47 - [TEST_CASE][PASSED] - Test Cases/SearchCustomerBDD/SearchByNorek/TC05-SearchByNoRek: Test Cases/SearchCustomerBDD/SearchByNorek/TC05-SearchByNoRek]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-17 16:44:47 - [TEST_SUITE][PASSED] - TS-SearchByNorek: Test Cases/SearchCustomerBDD/SearchByNorek/TC05-SearchByNoRek]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

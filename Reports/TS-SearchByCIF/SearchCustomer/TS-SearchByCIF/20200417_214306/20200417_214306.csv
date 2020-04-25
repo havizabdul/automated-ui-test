@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-SearchByCIF,Chrome 81.0.4044.113,,,2020-04-17 21:43:09,2020-04-17 21:43:34,"25,294s",PASSED
+,,,,,,,
+Test Cases/SearchCustomerBDD/SearchByCIF/TC01-SearchByCIF,Chrome 81.0.4044.113,,,2020-04-17 21:43:09,2020-04-17 21:43:34,"24,795s",PASSED

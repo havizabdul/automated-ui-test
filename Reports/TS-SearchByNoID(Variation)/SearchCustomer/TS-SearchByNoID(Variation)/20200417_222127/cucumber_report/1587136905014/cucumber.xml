@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="51.64431">
+<testcase classname="Searc By No.Id Variation" name="Search BY ID" time="51.64431">
+<system-out><![CDATA[Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input idnum 2737377732377372.......................................passed
+And user klik button search.................................................passed
+Then verify result data not found...........................................passed
+And wait for minutes........................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

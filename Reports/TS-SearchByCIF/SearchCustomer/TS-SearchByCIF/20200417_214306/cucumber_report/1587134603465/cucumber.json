@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "SearchByCIF",
+        "description": "",
+        "id": "search-customer-by-cif;searchbycif;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1567159300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 370837700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 420199300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086483800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input cifnum RP39804",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RP39804",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchCustomer.user_input_cifnum(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2554509700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5004081300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchByCIF"
+          }
+        ]
+      }
+    ],
+    "name": "Search Customer by CIF",
+    "description": "",
+    "id": "search-customer-by-cif",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/SearchCustomer/SearchByCIF.feature",
+    "tags": []
+  }
+]

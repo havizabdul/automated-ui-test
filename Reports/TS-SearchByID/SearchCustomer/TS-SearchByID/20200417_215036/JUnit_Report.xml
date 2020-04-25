@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-SearchByID" time="59.292" tests="1" failures="0" errors="0">
+   <testsuite name="TS-SearchByID" tests="1" failures="0" errors="0" time="59.292" timestamp="2020-04-17 21:50:39" hostname="Citra Sandrauli - DESKTOP-IUT9I9T" id="Test Suites/SearchCustomer/TS-SearchByID">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\NDS\\Reports\\20200417_215036\\SearchCustomer\\TS-SearchByID\\20200417_215036"/>
+         <property name="logFiles" value="F:\\NDS\\Reports\\20200417_215036\\SearchCustomer\\TS-SearchByID\\20200417_215036\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Citra Sandrauli - DESKTOP-IUT9I9T"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.113"/>
+         <property name="hostAddress" value="192.168.139.90"/>
+         <property name="sessionId" value="a3810b1a74415dbc3ccc41ad680628bf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SearchCustomerBDD/SearchByNoID/TC07-SearchByID" time="57.597" classname="Test Cases/SearchCustomerBDD/SearchByNoID/TC07-SearchByID" status="PASSED">
+         <system-out><![CDATA[2020-04-17 21:50:40 - [TEST_CASE][PASSED] - Test Cases/SearchCustomerBDD/SearchByNoID/TC07-SearchByID: Test Cases/SearchCustomerBDD/SearchByNoID/TC07-SearchByID]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-17 21:50:39 - [TEST_SUITE][PASSED] - TS-SearchByID: Test Cases/SearchCustomerBDD/SearchByNoID/TC07-SearchByID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

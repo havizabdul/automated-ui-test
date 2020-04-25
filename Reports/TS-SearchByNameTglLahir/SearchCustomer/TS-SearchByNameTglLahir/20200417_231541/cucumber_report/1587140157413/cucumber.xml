@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.305877">
+<testcase classname="Search By Nama Dan Tanggal Lahir" name="Search By Name" time="37.305877">
+<system-out><![CDATA[Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input nama <nama>..................................................passed
+And user input tgl_lahir 1983-05-04.........................................passed
+And user klik button search.................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

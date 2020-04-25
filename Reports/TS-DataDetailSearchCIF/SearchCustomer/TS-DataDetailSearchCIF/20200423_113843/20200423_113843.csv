@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-DataDetailSearchCIF,Chrome 81.0.4044.122,,,2020-04-23 11:38:46,2020-04-23 11:39:47,"1m - 1,317s",PASSED
+,,,,,,,
+Test Cases/SearchCustomerBDD/DataDetailSearchCIF/DataDetalSearchCIF,Chrome 81.0.4044.122,,,2020-04-23 11:38:46,2020-04-23 11:39:47,"1m - 1,019s",PASSED

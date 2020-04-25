@@ -1,0 +1,379 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Search Nama Variation",
+        "description": "",
+        "id": "search-nama-variation;search-nama-variation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8544675300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user berada di halaman login",
+            "match": {
+              "location": "loginSteps.user_berada_di_halaman_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 778569300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input username 0206105",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206105",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 707533800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 507310500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user klik submit",
+            "match": {
+              "location": "loginSteps.user_klik_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171861500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 352367500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 404564900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 896883200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user input nama \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchCustomer.user_input_nama(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768587100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user input tgl_lahir 1983-05-04",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1983-05-04",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchCustomer.user_input_tgl_lahir(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2402000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5003057900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1389264700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user klik logout",
+            "match": {
+              "location": "loginSteps.user_klik_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchByNamaVariation"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Search Nama Variation",
+        "description": "",
+        "id": "search-nama-variation;search-nama-variation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10196922300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user berada di halaman login",
+            "match": {
+              "location": "loginSteps.user_berada_di_halaman_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 882328500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input username 0206198",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206198",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 868535400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 578988100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user klik submit",
+            "match": {
+              "location": "loginSteps.user_klik_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1264942800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 946137500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 470885400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1272790100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user input nama Rudi Wiranto",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rudi Wiranto",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchCustomer.user_input_nama(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891642700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user input tgl_lahir \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchCustomer.user_input_tgl_lahir(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2450962600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5004874700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1299284600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user klik logout",
+            "match": {
+              "location": "loginSteps.user_klik_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchByNamaVariation"
+          }
+        ]
+      }
+    ],
+    "name": "Search Nama Variation",
+    "description": "",
+    "id": "search-nama-variation",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/SearchCustomer/SearchByNamaVariation.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Search BY ID",
+        "description": "",
+        "id": "searc-by-no.id-variation;search-by-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1247192700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 366168800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 418408000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1227132500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input idnum 2737377732377372",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2737377732377372",
+                  "offset": 17
+                }
+              ],
+              "location": "SearchCustomer.user_input_idnum(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2431020700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30361526700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify result data not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "result data not found",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5002851900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10567422900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user klik logout",
+            "match": {
+              "location": "loginSteps.user_klik_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchByNoIDVariation"
+          }
+        ]
+      }
+    ],
+    "name": "Searc By No.Id Variation",
+    "description": "",
+    "id": "searc-by-no.id-variation",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/SearchCustomer/SearchByIDVariation.feature",
+    "tags": []
+  }
+]

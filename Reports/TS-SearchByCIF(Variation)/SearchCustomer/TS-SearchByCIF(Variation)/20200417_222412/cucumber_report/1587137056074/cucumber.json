@@ -1,0 +1,403 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Search by CIF Variation",
+        "description": "",
+        "id": "search-by-cif-variation;search-by-cif-variation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9829632200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user berada di halaman login",
+            "match": {
+              "location": "loginSteps.user_berada_di_halaman_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 873250300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input username 0206198",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206198",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 771730800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 527024700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user klik submit",
+            "match": {
+              "location": "loginSteps.user_klik_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1057559000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 412015800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 423839000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1038550800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user input cifnum 3874837",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3874837",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchCustomer.user_input_cifnum(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2530744800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000839900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30325589300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify result No records found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "result No records found",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5002594500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5174964100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user klik logout",
+            "match": {
+              "location": "loginSteps.user_klik_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Search by CIF Variation",
+        "description": "",
+        "id": "search-by-cif-variation;search-by-cif-variation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7800662400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user berada di halaman login",
+            "match": {
+              "location": "loginSteps.user_berada_di_halaman_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 847177200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input username 0206105",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206105",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 811631500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 718599900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user klik submit",
+            "match": {
+              "location": "loginSteps.user_klik_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1482905900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 491147800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 530053300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1167097200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user input cifnum tyttttt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tyttttt",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchCustomer.user_input_cifnum(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2661209900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5002277600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23972762600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify result No records found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "result No records found",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5003986400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1579619900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user klik logout",
+            "match": {
+              "location": "loginSteps.user_klik_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Search by CIF Variation",
+    "description": "",
+    "id": "search-by-cif-variation",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/SearchCustomer/SearchByCIFVariation.feature",
+    "tags": []
+  }
+]

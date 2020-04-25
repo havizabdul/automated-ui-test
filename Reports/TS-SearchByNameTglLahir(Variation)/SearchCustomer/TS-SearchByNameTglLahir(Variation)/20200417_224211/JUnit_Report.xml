@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-SearchByNameTglLahir(Variation)" time="51.164" tests="1" failures="0" errors="0">
+   <testsuite name="TS-SearchByNameTglLahir(Variation)" tests="1" failures="0" errors="0" time="51.164" timestamp="2020-04-17 22:42:13" hostname="Citra Sandrauli - DESKTOP-IUT9I9T" id="Test Suites/SearchCustomer/TS-SearchByNameTglLahir(Variation)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\NDS\\Reports\\20200417_224211\\SearchCustomer\\TS-SearchByNameTglLahir(Variation)\\20200417_224211"/>
+         <property name="logFiles" value="F:\\NDS\\Reports\\20200417_224211\\SearchCustomer\\TS-SearchByNameTglLahir(Variation)\\20200417_224211\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Citra Sandrauli - DESKTOP-IUT9I9T"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.113"/>
+         <property name="hostAddress" value="192.168.139.90"/>
+         <property name="sessionId" value="8e19cc32dd202ceb818757d4729573fe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SearchCustomerBDD/SearchByName_TglLahir/TC04-NamaDanTglLahir_Variation" time="50.257" classname="Test Cases/SearchCustomerBDD/SearchByName_TglLahir/TC04-NamaDanTglLahir_Variation" status="PASSED">
+         <system-out><![CDATA[2020-04-17 22:42:14 - [TEST_CASE][PASSED] - Test Cases/SearchCustomerBDD/SearchByName_TglLahir/TC04-NamaDanTglLahir_Variation: Test Cases/SearchCustomerBDD/SearchByName_TglLahir/TC04-NamaDanTglLahir_Variation]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-17 22:42:13 - [TEST_SUITE][PASSED] - TS-SearchByNameTglLahir(Variation): Test Cases/SearchCustomerBDD/SearchByName_TglLahir/TC04-NamaDanTglLahir_Variation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

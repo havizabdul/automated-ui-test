@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "login",
+        "description": "",
+        "id": "login;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11916088400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user berada di halaman login",
+            "match": {
+              "location": "loginSteps.user_berada_di_halaman_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 944707300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input username 0206104",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0206104",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 842301300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input password 00000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 20
+                }
+              ],
+              "location": "loginSteps.user_input_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 622663200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user klik submit",
+            "match": {
+              "location": "loginSteps.user_klik_submit()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/login/login.feature",
+    "tags": []
+  }
+]

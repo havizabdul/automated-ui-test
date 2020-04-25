@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-SearchByNameTglLahir,Chrome 81.0.4044.113,,,2020-04-17 23:15:43,2020-04-17 23:16:34,"50,956s",PASSED
+,,,,,,,
+Test Cases/SearchCustomerBDD/SearchByName_TglLahir/TC03-SearchByNama_TglLahir,Chrome 81.0.4044.113,,,2020-04-17 23:15:44,2020-04-17 23:16:34,"50,587s",PASSED

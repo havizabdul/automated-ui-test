@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.881784">
+<testcase classname="Search Customer By variation" name="Search Customer" time="11.881784">
+<system-out><![CDATA[Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input account 478732747332628......................................passed
+And user klik button search.................................................passed
+Then verify result Data tidak ditemukan.....................................passed
+And wait for minutes........................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

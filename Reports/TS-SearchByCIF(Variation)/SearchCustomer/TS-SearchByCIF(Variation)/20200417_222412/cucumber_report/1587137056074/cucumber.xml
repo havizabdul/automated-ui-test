@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="115.105289">
+<testcase classname="Search by CIF Variation" name="Search by CIF Variation" time="63.016741">
+<system-out><![CDATA[Given user berada di halaman login..........................................passed
+When user input username 0206198............................................passed
+Then user input password 00000000...........................................passed
+And user klik submit........................................................passed
+Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input cifnum 3874837...............................................passed
+And user klik button search.................................................passed
+And wait for minutes........................................................passed
+Then verify result No records found.........................................passed
+And wait for minutes........................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search by CIF Variation" name="Search by CIF Variation 2" time="52.088548">
+<system-out><![CDATA[Given user berada di halaman login..........................................passed
+When user input username 0206105............................................passed
+Then user input password 00000000...........................................passed
+And user klik submit........................................................passed
+Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input cifnum tyttttt...............................................passed
+And user klik button search.................................................passed
+And wait for minutes........................................................passed
+Then verify result No records found.........................................passed
+And wait for minutes........................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

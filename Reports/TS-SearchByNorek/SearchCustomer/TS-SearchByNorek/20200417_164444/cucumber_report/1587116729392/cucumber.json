@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "SearchByNoRek",
+        "description": "",
+        "id": "search-customer;searchbynorek;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 858262500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1246810099,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 379452201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1093025900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input account 020601000002561",
+            "match": {
+              "arguments": [
+                {
+                  "val": "020601000002561",
+                  "offset": 19
+                }
+              ],
+              "location": "SearchCustomer.user_input_account(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2593136300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchByNorek"
+          }
+        ]
+      }
+    ],
+    "name": "Search Customer",
+    "description": "",
+    "id": "search-customer",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/SearchCustomer/SearchByNoRek.feature",
+    "tags": []
+  }
+]

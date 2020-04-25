@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="49.110192">
+<testcase classname="Search Nama Variation" name="Search Nama Variation" time="22.969321">
+<system-out><![CDATA[Given user berada di halaman login..........................................passed
+When user input username 0206105............................................passed
+Then user input password 00000000...........................................passed
+And user klik submit........................................................passed
+Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input nama ""......................................................passed
+And user input tgl_lahir 1983-05-04.........................................passed
+And user klik button search.................................................passed
+And wait for minutes........................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Nama Variation" name="Search Nama Variation 2" time="26.140871">
+<system-out><![CDATA[Given user berada di halaman login..........................................passed
+When user input username 0206198............................................passed
+Then user input password 00000000...........................................passed
+And user klik submit........................................................passed
+Given user klik non monitory................................................passed
+Then user klik CIF..........................................................passed
+And user klik inquiry.......................................................passed
+And user input nama Rudi Wiranto............................................passed
+And user input tgl_lahir "".................................................passed
+And user klik button search.................................................passed
+And wait for minutes........................................................passed
+And user klik logout........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

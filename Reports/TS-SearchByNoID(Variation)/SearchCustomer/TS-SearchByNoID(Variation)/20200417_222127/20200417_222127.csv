@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-SearchByNoID(Variation),Chrome 81.0.4044.113,,,2020-04-17 22:21:30,2020-04-17 22:22:36,"1m - 6,389s",PASSED
+,,,,,,,
+Test Cases/SearchCustomerBDD/SearchByNoID/TC08-SearchByID_Variation,Chrome 81.0.4044.113,,,2020-04-17 22:21:30,2020-04-17 22:22:36,"1m - 5,857s",PASSED

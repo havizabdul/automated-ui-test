@@ -1,0 +1,418 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 38,
+        "name": "Data Keuangan",
+        "description": "",
+        "id": "data-keuangan;data-keuangan;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 840369100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367303600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 415300000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100079500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input account 020601000002561",
+            "match": {
+              "arguments": [
+                {
+                  "val": "020601000002561",
+                  "offset": 19
+                }
+              ],
+              "location": "SearchCustomer.user_input_account(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2617496600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315850100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user scrool continue",
+            "match": {
+              "location": "SearchCustomer.user_scrool_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394084500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user klik checkbox",
+            "match": {
+              "location": "SearchCustomer.user_klik_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5004522700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "wait for minutes",
+            "match": {
+              "location": "SearchCustomer.wait_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2346833300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user klik continue",
+            "match": {
+              "location": "SearchCustomer.user_klik_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7521742100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify Data Debitur",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Data Debitur",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351237500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user scrool continue",
+            "match": {
+              "location": "SearchCustomer.user_scrool_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2463465000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user klik continue",
+            "match": {
+              "location": "SearchCustomer.user_klik_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486133100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify Alamat Sesuai ID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alamat Sesuai ID",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472079900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify Alamat Domisili",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alamat Domisili",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483921600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify Data Lainnya",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Data Lainnya",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281278700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user scrool continue",
+            "match": {
+              "location": "SearchCustomer.user_scrool_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2398856500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user klik continue",
+            "match": {
+              "location": "SearchCustomer.user_klik_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 409136400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verify Data Pekerjaan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Data Pekerjaan",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426697300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify Keluarga PEP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Keluarga PEP",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277535600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user scrool continue",
+            "match": {
+              "location": "SearchCustomer.user_scrool_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2342375800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user klik continue",
+            "match": {
+              "location": "SearchCustomer.user_klik_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412604900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify Data Kantor",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Data Kantor",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295231300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user scrool continue",
+            "match": {
+              "location": "SearchCustomer.user_scrool_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2487010300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user klik continue",
+            "match": {
+              "location": "SearchCustomer.user_klik_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 476681000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify Data Keuangan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Data Keuangan",
+                  "offset": 7
+                }
+              ],
+              "location": "SearchCustomer.verify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290160700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user scrool finish",
+            "match": {
+              "location": "SearchCustomer.user_scrool_finish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2454748800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user klik finish",
+            "match": {
+              "location": "SearchCustomer.user_klik_finish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181242500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user klik logout",
+            "match": {
+              "location": "loginSteps.user_klik_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataKeuangan"
+          }
+        ]
+      }
+    ],
+    "name": "Data Keuangan",
+    "description": "",
+    "id": "data-keuangan",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/SearchCustomer/DataDetailSearchCIF.feature",
+    "tags": []
+  }
+]

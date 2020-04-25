@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Search By Name",
+        "description": "",
+        "id": "search-by-nama-dan-tanggal-lahir;search-by-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1109282900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user klik non monitory",
+            "match": {
+              "location": "SearchCustomer.user_klik_non_monitory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 378205700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user klik CIF",
+            "match": {
+              "location": "SearchCustomer.user_klik_CIF()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 411036200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user klik inquiry",
+            "match": {
+              "location": "SearchCustomer.user_klik_inquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1123067600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input nama \u003cnama\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cnama\u003e",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchCustomer.user_input_nama(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 879840400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input tgl_lahir 1983-05-04",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1983-05-04",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchCustomer.user_input_tgl_lahir(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2438771700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user klik button search",
+            "match": {
+              "location": "SearchCustomer.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30947629700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user klik logout",
+            "match": {
+              "location": "loginSteps.user_klik_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchByName"
+          }
+        ]
+      }
+    ],
+    "name": "Search By Nama Dan Tanggal Lahir",
+    "description": "",
+    "id": "search-by-nama-dan-tanggal-lahir",
+    "keyword": "Feature",
+    "uri": "F:/NDS/include/features/SearchCustomer/SearchByName.feature",
+    "tags": []
+  }
+]
